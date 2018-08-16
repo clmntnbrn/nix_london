@@ -1,6 +1,6 @@
 body {
   background-color: #f2f2f2;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -11,7 +11,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -30,9 +30,13 @@ p {
 
 /* Links */
 a {
-    color: #f39c12;
+    color: #FF5459;
     word-wrap: break-word;
-
+    margin: 2rem;
+    font-size: 3rem;
+    /* -webkit-box-shadow: 0px 0px 5px 0px rgba(135,44,47,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(135,44,47,1);
+    box-shadow: 0px 0px 5px 0px rgba(135,44,47,1); */
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -56,7 +60,32 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+button {
+  -moz-box-shadow: 0px 11px 20px 0px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 11px 20px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 11px 20px 0px rgba(0,0,0,0.3);
+	background-color:#ff545a;
+	-moz-border-radius:52px;
+	-webkit-border-radius:52px;
+	border-radius:52px;
+	border:2px solid #fa2d34;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:2rem;
+  font-weight: 600;
+	padding:1.2rem 7rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #bf060f;
+}
+
+button:hover {
+  background-color:#fc3c46;
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -80,4 +109,8 @@ h1 {
 .w i {
 	font-size: 26px;
 	padding: 12px;
+}
+
+.row {
+  margin-top: 50px;
 }
